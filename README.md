@@ -15,7 +15,7 @@ We recognize that in file csv, we have imbalanced data ("Churn", "Not churn"). S
 
 LightGBM is fast, distributed, high performance gradient boosting framework based on decision tree algorithm. It can lead to overfitting if it has too many layers. LightGBM enables to efficiently handle large and imbalanced datasets with many features.
 
-# OUTLITER DETECTION
+# OUTLIER DETECTION
 We choose upper_replace_value equal to 3 and lower_replace_value = -3 when finding outlier because with large dataset 99.7% of values lie between -3 and 3 standard deviations and normal distribution is symmetric around the mean
 
 	A z-score is used in many real-life applications, such as medical evaluations, test scoring, business decision-making, and investing and trading opportunity measurements
