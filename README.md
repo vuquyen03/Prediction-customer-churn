@@ -27,7 +27,7 @@ Why 1.5 times IQR? Why not 1 or 2 or any other number?
 We tried to predict and analyzed Customer Loss with classification algorithms. Logistic Regression, DecisionTree, Random Forest, AdaBoostClassifier, KNN, Gaussian Naive Bayes, XGBOOST, Gradient Boost, LightGBM algorithms was used
 
 A random forest is simply a collection of decision trees whose results are aggregated into one final result.
-Decision Tree có xu hướng overfitting khi tập dữ liệu lớn, còn Random Forest có khả năng giảm thiểu overfitting bằng cách kết hợp nhiều cây quyết định độc lập
+Decision Tree tends to overfitting with big dataset, Random Forest is able to decrease overfitting by combinating many decision trees and using a technique call "bootstrap aggregating" or "bagging"
 
 # Model reviews
 `classification_report`
