@@ -3,6 +3,7 @@ We recognize that in file csv, we have imbalanced data ("Churn", "Not churn"). S
 	Method 1: Undersampling or Oversampling
 
 	Method 2: Using machine learning models like
+		+ Logistic Regression
 		+ Decision tree
 		+ Random forests
 		+ ExtraTreesClassifier
