@@ -30,7 +30,8 @@ A random forest is simply a collection of decision trees whose results are aggre
 Decision Tree có xu hướng overfitting khi tập dữ liệu lớn, còn Random Forest có khả năng giảm thiểu overfitting bằng cách kết hợp nhiều cây quyết định độc lập
 
 # Model reviews
-'classification_report'
+`classification_report`
+
 Precision (positive) = TP/(TP+FP)
 Recall Score = TP / (FN + TP)
 F1-score = 2 * (precision * recall) / (precision + recall)
