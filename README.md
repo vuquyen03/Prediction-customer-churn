@@ -9,7 +9,6 @@ We recognize that in file csv, we have imbalanced data ("Churn", "Not churn"). S
 		+ ExtraTreesClassifier
 		+ SVMs
 		+ KNN
-		+ Naive Bayes
 		+ LightGBM
 
 
