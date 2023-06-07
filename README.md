@@ -6,7 +6,6 @@ We recognize that in file csv, we have imbalanced data ("Churn", "Not churn"). S
 		+ Logistic Regression
 		+ Decision tree
 		+ Random forests
-		+ ExtraTreesClassifier
 		+ SVMs
 		+ KNN
 		+ LightGBM
